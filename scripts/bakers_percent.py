@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Baker's Percentage calculator for Le Cordon Bleu recipe MD files.
+Baker's Percentage calculator for professional pastry recipe MD files.
 
 Baker's % expresses every ingredient as a percentage of the base ingredient
 (typically flour for bread/tart dough, or the dominant ingredient for other

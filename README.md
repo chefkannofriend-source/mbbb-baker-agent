@@ -1,6 +1,10 @@
-# LCB Baker Agent
+# mbbb Baker Agent
 
-A [Claude Code](https://claude.ai/code) subagent for pastry recipe lookup and Baker's Percentage calculation, built around a Le Cordon Bleu–style recipe library.
+A [Claude Code](https://claude.ai/code) subagent for pastry recipe lookup and Baker's Percentage calculation, built around a professional pastry recipe library.
+
+## Disclaimer
+
+The knowledge base and technique references in this agent reflect the author's personal industry experience (18+ years in professional kitchens and fine dining consulting) and publicly available culinary science. This project is not affiliated with, endorsed by, or associated with any culinary school or educational institution. The recipe library does not contain any confidential, proprietary, or internal recipes belonging to any educational brand or institution.
 
 ## What it does
 
@@ -168,4 +172,4 @@ Baker's % = (ingredient weight / base weight) × 100
 
 MIT — see [LICENSE](LICENSE).
 
-The recipe files in `_md/` are **not included** in this repository. Recipes sourced from culinary schools or published cookbooks are subject to their respective copyright holders. Always ensure you have the right to digitize and use any recipe you add to this system.
+The recipe files in `_md/` are **not included** in this repository. Always ensure you have the right to digitize and use any recipe you add to this system.

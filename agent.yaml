@@ -1,0 +1,31 @@
+spec_version: "0.1.0"
+name: mbbb-baker-agent
+version: 1.0.0
+description: >
+  A Claude Code subagent for professional pastry recipe lookup and Baker's
+  Percentage calculation. Backed by a curated multilingual recipe library (French
+  and Chinese), the agent handles recipe search by name or ingredient, computes
+  Baker's % for any formula, scales batches to a target base weight, and answers
+  pastry-science questions (ganache ratios, mousse stability, hydrocolloid
+  selection, meringue types, etc.) using a structured knowledge base. Built by
+  an 18-year professional kitchen veteran.
+license: MIT
+model:
+  preferred: anthropic:claude-sonnet-4-6
+skills:
+  - name: recipe-lookup
+    description: Find pastry recipes by French or Chinese name, or by ingredient, from the curated library
+  - name: bakers-percentage
+    description: Calculate Baker's % for any formula with configurable base ingredient
+  - name: recipe-scaling
+    description: Scale any recipe so the base ingredient reaches a target batch weight
+  - name: technique-qa
+    description: Answer pastry-science questions using the structured knowledge base (ganache, mousse, hydrocolloids, caramel, meringue, etc.)
+runtime:
+  max_turns: 30
+adapters:
+  - claude-code
+compliance:
+  risk_tier: standard
+  supervision:
+    human_in_the_loop: none
